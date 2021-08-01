@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:onClick="favouritesImg"
+tools:context=".HomeActivity">
+
+    <ImageButton
+        android:id="@+id/PlaylistBtn1"
+        android:layout_width="116dp"
+        android:layout_height="121dp"
+        android:onClick="playlistImg"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/playlistimage" />
+
+    <ImageButton
+        android:id="@+id/FavBtn1"
+        android:layout_width="116dp"
+        android:layout_height="121dp"
+        android:onClick="favouritesImg"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
+        app:srcCompat="@drawable/photograph" />
+
+    <ImageButton
+        android:id="@+id/ArtistBtn1"
+        android:layout_width="116dp"
+        android:layout_height="121dp"
+        android:onClick="artistImg"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
+        app:srcCompat="@drawable/artistspicture" />
+
+    <ImageButton
+        android:id="@+id/SongImage1"
+        android:layout_width="116dp"
+        android:layout_height="121dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:onClick="playSong"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        app:srcCompat="@drawable/billie_jean" />
+
+<Button
+    android:id="@+id/PlaylistTtlBtn"
+    android:layout_width="119dp"
+    android:layout_height="42dp"
+    android:background="@drawable/playlist"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.845"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.312" />
+
+<ImageButton
+    android:id="@+id/imageButton"
+    android:layout_width="130dp"
+    android:layout_height="39dp"
+    android:background="@android:color/transparent"
+    android:scaleType="centerCrop"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.195"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.556"
+    app:srcCompat="@drawable/favorites" />
+
+<ImageButton
+    android:id="@+id/imageButton2"
+    android:layout_width="112dp"
+    android:layout_height="45dp"
+    android:background="@android:drawable/screen_background_dark_transparent"
+    android:scaleType="fitCenter"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.826"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.561"
+    app:srcCompat="@drawable/artists" />
+
+<ImageButton
+    android:id="@+id/imageButton3"
+    android:layout_width="106dp"
+    android:layout_height="50dp"
+    android:background="@android:drawable/screen_background_dark_transparent"
+    android:scaleType="fitCenter"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.18"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.315"
+    app:srcCompat="@drawable/songs" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
